@@ -1,0 +1,55 @@
+.main {
+    -fx-background-color: transparent;
+    -fx-font-family: "Arial";
+}
+
+.card {
+    -fx-background-color: rgb(245, 245, 245);
+    -fx-background-radius: 20px;
+}
+
+.keyresult {
+    -fx-text-fill: #f3aa96;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 20px;
+}
+
+.prevnumber {
+    -fx-font-size: 20px;
+    -fx-text-fill: #aaa;
+}
+
+.keypad {
+    -fx-font-size: 28px;
+    -fx-background-color: #f5dbd9;
+    -fx-text-fill: #8c8b8b;
+    -fx-background-radius: 7px;
+    -fx-font-weight: regular;
+    -fx-cursor: hand;
+}
+
+.keypad_common {
+    -fx-background-color: #f5c3bc;
+    -fx-text-fill: #000;
+    -fx-font-size: 25px;
+}
+
+.keypad_special {
+    -fx-font-size: 18px;
+}
+
+.keypad:hover {
+    -fx-background-color: #f4c1b7;
+}
+
+.keybad_common:hover {
+    -fx-background-color: #f2aa9c;
+}
+
+.exit {
+    -fx-font-size: 30px;
+    -fx-background-color: transparent;
+    -fx-text-fill: #000;
+    -fx-cursor: hand;
+}
